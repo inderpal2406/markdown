@@ -1,6 +1,36 @@
 # Markdown
 This repository is for practice of Markdown language.
 
+## What is a Markup language?
+A markup language is a computer language that uses tags to define elements within a document. It is human-readable, meaning markup files contain standard words, rather than typical programming syntax. While several markup languages exist, the two most popular are HTML and XML.
+
+HTML is a markup language used for creating webpages. The full form of HTML is Hypertext Markup Language. The contents of each webpage are defined by HTML tags. Basic page tags, such as <head>, <body>, and <div> define sections of the page, while tags such as <table>, <form>, <image>, and <a> define elements within the page. Most elements require a beginning and end tag, with the content placed between the tags. For example, a link to the TechTerms.com home page may use the following HTML code:
+
+`<a href="http://www.techterms.com">TechTerms.com</a>`
+
+XML is used for storing structured data, rather than formatting information on a page. While HTML documents use predefined tags (like the examples above), XML files use custom tags to define elements. For example, an XML file that stores information about computer models may include the following section:
+
+```
+<computer>
+  <manufacturer>Dell</manufacturer>
+  <model>XPS 17</model>
+  <components>
+    <processor>2.00 GHz Intel Core i7</processor>
+    <ram>6GB</ram>
+    <storage>1TB</storage>
+  </components>
+</computer>
+```
+
+XML is called the "Extensible Markup Language" since custom tags can be used to support a wide range of elements. Each XML file is saved in a standard text format, which makes it easy for software programs to parse or read the data. Therefore, XML is a common choice for exporting structured data and for sharing data between multiple programs.
+
+**Note**<br>
+Since both HTML and XML files are saved in a plain text format, they can be viewed in a standard text editor. You can also view the HTML source of an open webpage by selecting the "View Source" option. This feature is found in the View menu of most Web browsers.
+
+
+## What is Markdown?
+
+
 ## How to denote headings?
 - A single '#' will denote the largest heading.
 - Double '##' will denote smaller heading.
