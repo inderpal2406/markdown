@@ -46,6 +46,22 @@ Markdown applications use something called a Markdown processor (also commonly r
 
 ![Markdown Process Image](markdown.PNG)
 
+To summarize, this is a four-part process:
+
+1. Create a Markdown file using a text editor or a dedicated Markdown application. The file should have an .md or .markdown extension.
+2. Open the Markdown file in a Markdown application.
+3. Use the Markdown application to convert the Markdown file to an HTML document.
+4. View the HTML file in a web browser or use the Markdown application to convert it to another file format, like PDF.
+
+## What's Markdown good for?
+Markdown is a fast and easy way to take notes, create content for a website, and produce print-ready documents.
+
+It doesn’t take long to learn the Markdown syntax, and once you know how to use it, you can write using Markdown just about everywhere. Most people use Markdown to create content for the web, but Markdown is good for formatting everything from email messages to grocery lists.
+
+Creating websites, documents (online or offline), books, presentations, emails, documentation (for example on GitHub) are some examples of what we can do with Markdown.
+
+Below are the guidelines for using Markdown:
+
 
 ## How to denote headings?
 - A single '#' will denote the largest heading.
@@ -70,4 +86,22 @@ To generate numbered bullet, we can simply add numbers 1,2,3, etc. Example is as
 Bold letters are generated using double ** symbol in start and end of the text. Example is as below:
 **This is bold text**
 
+## How to denote an online link?
+Online links or path to a file on local computer can be denoted in below way:<br>
+`[name of link/file](link_to_file)`
 
+Example: [Google](https://www.google.com)
+
+## How to denote new line character?
+A new line character is denoted by `<br>` in markdown language. By typing `<br>` in the end of a line, we can print the next words starting from the next new line. It needs to be used when we mention a bulleted list, bold letters, comments, etc.
+
+## How to denote a comment?
+A comment is mentioned by a pair of back ticks. One back tick at the start and the other at the end. Below is a comment:<br>
+`This is a comment.`<br>
+
+**We need to check if comments are denoted with multiple back ticks also?**
+
+## How to denote bash commands?
+```bash
+This is a bash command.
+```
