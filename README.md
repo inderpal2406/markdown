@@ -99,12 +99,12 @@ A new line character is denoted by `<br>` in markdown language. By typing `<br>`
 A comment is mentioned by a pair of back ticks. One back tick at the start and the other at the end. Below is a comment:<br>
 `This is a comment.`<br>
 
-Comments can be generated using multiple back ticks also. If multiple comments are present serially, then we can denote them in below manner,
+A multi-line comment can be generated using 6 back ticks, 3 in start and 3 in end.
 
-`
+```
 bash
 This is a bash command.
 Bash is an interpreter program.
-`
+```
 
 Comments can be used to escape the special meaning of characters.
