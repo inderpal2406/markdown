@@ -112,16 +112,16 @@ We can add numbers also in addition to plain bullets. Irrespective of how we spe
      2. Nested Sixth Item in C.
 
 ## How to write task lists?
-To create a task list, preface list items with a regular space character followed by [ ]. To mark a task as complete, use [x].
+To create a task list, preface list items with a regular space character followed by [ ]. To mark a task as complete, use [x]. Please note that we need to mention `-` in front followed by a space and then `[x]`.
 ```
- [x] Finish my changes.
- [ ] Push my changes to GitHub.
- [ ] Open a pull request.
+- [x] Finish my changes.
+- [ ] Push my changes to GitHub.
+- [ ] Open a pull request.
 ```
 
- [x] Finish my changes.
- [ ] Push my changes to GitHub.
- [ ] Open a pull request.
+- [x] Finish my changes.
+- [ ] Push my changes to GitHub.
+- [ ] Open a pull request.
 
 ## How to type bold letters?
 Bold letters are generated using double ** symbol in start and end of the text. Example is as below:
