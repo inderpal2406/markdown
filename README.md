@@ -90,6 +90,10 @@ Bold letters are generated using double ** symbol in start and end of the text. 
 Italic letters can be typed using a single `*` in start and end of the words. For example,<br>
 *This is Italic text*
 
+## How tostrike through a text?
+We can strike through a text by typing `~~text_to_be_striked_through~~`. For example,<br>
+~~This text was written by mistake.~~
+
 ## How to denote an online link?
 Online links or path to a file on local computer can be denoted in below way:<br>
 `[name of link/file](link_to_file)`
