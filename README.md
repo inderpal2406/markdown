@@ -93,7 +93,7 @@ We can write nested lists in below way, make sure that the nested list `-` mark 
   - Second item in B.
 ```
 
-We can add numbers also in addition to plain bullets. For example,
+We can add numbers also in addition to plain bullets. Irrespective of how we specify the numbers, alphabets, bullets in nested lists, Markdown will decide the format on its own For example,
 1. Item A.
    - First Item in A.
    - Second Item in A.
@@ -141,6 +141,9 @@ We can define relative links and image paths in our rendered files to help reade
 A relative link is a link that is relative to the current file. For example, if we have a README file in root of our repository, and we have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in our README might look like this:
 
 `[Contribution guidelines for this project](docs/CONTRIBUTING.md)`
+
+For example,<br>
+[The license for this repository can be found here.](LICENSE.md)
 
 ## How to denote new line character?
 A new line character is denoted by `<br>` in markdown language. By typing `<br>` in the end of a line, we can print the next words starting from the next new line. It needs to be used when we mention a bulleted list, bold letters, comments, etc.
