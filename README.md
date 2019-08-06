@@ -90,6 +90,11 @@ Bold letters are generated using double ** symbol in start and end of the text. 
 Italic letters can be typed using a single `*` in start and end of the words. For example,<br>
 *This is Italic text*
 
+## How to quote text?
+We can quote text by denoting a `>` in the start. For example,<br>
+Gandhiji said,
+>Future depends on what we do today.
+
 ## How tostrike through a text?
 We can strike through a text by typing `~~text_to_be_striked_through~~`. For example,<br>
 ~~This text was written by mistake.~~
