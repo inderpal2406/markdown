@@ -108,11 +108,10 @@ Example: [Google](https://www.google.com)
 ## How to denote new line character?
 A new line character is denoted by `<br>` in markdown language. By typing `<br>` in the end of a line, we can print the next words starting from the next new line. It needs to be used when we mention a bulleted list, bold letters, comments, etc.
 
-## How to denote a comment?
-A comment is mentioned by a pair of back ticks. One back tick at the start and the other at the end. Below is a comment:<br>
-`This is a comment.`<br>
-
-A multi-line comment can be generated using 6 back ticks, 3 in start and 3 in end.
+## How to escape markdown formatting for words?
+A pair of back ticks, one back tick at the start and the other at the end. Below is an example:<br>
+Quoting text within a sentence will be like `This text won't be formatted with Markdown, instead it'll be displayed as it is.`Done!<br>
+We can use this format within sentences to escape special meaning of characters in Markdown and to denote commands. A multi-line commands can be generated using 6 back ticks, 3 in start and 3 in end.
 
 ```
 bash
