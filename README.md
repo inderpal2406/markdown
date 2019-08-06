@@ -171,7 +171,10 @@ This is a bash command.
 Bash is an interpreter program.
 ```
 
-Comments can be used to escape the special meaning of characters.
+Comments can be used to escape the special meaning of characters. Or we can use a back slash `\` to escape Markdown formatting. For example,<br>
+`Let's rename \*our_old_project\* to \*our_new_project\*`
+
+Let's rename \*our_old_project\* to \*our_new_project\*
 
 ## How to mention people and teams?
 You can mention a person or team on GitHub by typing @ plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. 
@@ -185,4 +188,12 @@ When you mention a parent team, members of its child teams also receive notifica
 Typing an @ symbol will bring up a list of people or teams on a project. The list filters as you type, so once you find the name of the person or team you are looking for, you can use the arrow keys to select it and press either tab or enter to complete the name. For teams, enter the @organization/team-name and all members of that team will get subscribed to the conversation.
 
 The autocomplete results are restricted to repository collaborators and any other participants on the thread.
+
+## How to refer issues and pull requests?
+You can bring up a list of suggested issues and pull requests within the repository by typing #. Type the issue or pull request number or title to filter the list, and then press either tab or enter to complete the highlighted result.
+
+## How to start a new paragraph or mention a line break?
+You can create a new paragraph by leaving a blank line between lines of text.
+
+
 
