@@ -83,29 +83,33 @@ To generate numbered bullet, we can simply add numbers 1,2,3, etc. Example is as
 2. This is point no. 2 generated using `2.`
 
 ## How to write nested lists?
+We can write nested lists in below way, make sure that the nested list `-` mark starts exactly below the text of the above parent point text.
 ```
 - Item A
- - First item in A.
- - Second item in A.
+  - First item in A.
+  - Second item in A.
 - Item B
- - First Item in B.
- - Second item in B.
+  - First Item in B.
+  - Second item in B.
 ```
 
 We can add numbers also in addition to plain bullets. For example,
 1. Item A.
- - First Item in A.
- - Second Item in A.
+   - First Item in A.
+   - Second Item in A.
 2. Item B.
- - First Item in B.
- - Second Item in B.
+   - First Item in B.
+   - Second Item in B.
 3. Item C.
- - First Item in C.
-  - Nested First Item in C.
-  - Nested Second Item in C.
- - Second Item in C.
-  - Nested Third Item in C.
-  - Nested Fourth Item in C.
+   - First Item in C.
+     - Nested First Item in C.
+     - Nested Second Item in C.
+   - Second Item in C.
+     - Nested Third Item in C.
+     - Nested Fourth Item in C.
+   - Third Item in C.
+     1. Nested Fifth Item in C.
+     2. Nested Sixth Item in C.
 
 ## How to type bold letters?
 Bold letters are generated using double ** symbol in start and end of the text. Example is as below:
