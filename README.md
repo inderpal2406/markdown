@@ -86,6 +86,10 @@ To generate numbered bullet, we can simply add numbers 1,2,3, etc. Example is as
 Bold letters are generated using double ** symbol in start and end of the text. Example is as below:
 **This is bold text**
 
+## How to type Italic styled letters?
+Italic letters can be typed using a single `*` in start and end of the words. For example,<br>
+*This is Italic text*
+
 ## How to denote an online link?
 Online links or path to a file on local computer can be denoted in below way:<br>
 `[name of link/file](link_to_file)`
