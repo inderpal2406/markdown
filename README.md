@@ -201,4 +201,4 @@ We can create a new paragraph by leaving a blank line between lines of text.
 
 We specify `![name](name.jpg)` in markdown to insert image from current directory. The name specified in `[]` is not displayed in real markdown and is for referrence while editing markdown.
 
-For example, ![Markdown Image](markdown.jpg)
+For example, ![Markdown Image](markdown.PNG)
