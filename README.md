@@ -196,3 +196,9 @@ We can bring up a list of suggested issues and pull requests within the reposito
 
 ## How to start a new paragraph or mention a line break?
 We can create a new paragraph by leaving a blank line between lines of text.
+
+## How to insert images into markdown?
+
+We specify `![name](name.jpg)` in markdown to insert image from current directory. The name specified in `[]` is not displayed in real markdown and is for referrence while editing markdown.
+
+For example, ![Markdown Image](markdown.jpg)
